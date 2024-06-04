@@ -1,4 +1,5 @@
 # LP-Pesquisas
+![image](https://github.com/DanielCarvalhoS/LP-Pesquisas/assets/162492997/34c3cdcf-1c08-47e5-aa36-8262dc184597)
 
 >[!Important]
 >- 13/06/24.
