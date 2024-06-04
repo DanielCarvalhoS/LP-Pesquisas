@@ -12,7 +12,6 @@ Separar a Pesquisa, afinal o Unity tem alguns tipos de dados do Unity.
 
 ## Sites:
 >[!Important]
-
 Matemática
 >-https://docs.unity3d.com/ScriptReference/Mathf.html
 Física
