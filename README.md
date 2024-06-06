@@ -16,3 +16,23 @@ Matemática
 >-https://docs.unity3d.com/ScriptReference/Mathf.html
 Física
 >-https://docs.unity3d.com/ScriptReference/Physics.html
+
+## Programação
+
+-Vamos primeiramente explicar sobre os tipos de dados do C#, contando seu funcionamento e diferenças ao tipos de dados com o Unity
+  Logo após, vamos falar sobre os métodos de Matemática (10), assim falando oque cada método escolhido faz, oque ele recebe, para que recebe e oque entrega.
+  Repetir essa ação para os métodos de Física. Tudo isso, falando os parametros de entrada e tipo de retorno para ambos.
+
+-Métodos Mathf:
+Max - DeltaAngle
+Min - Abs
+Repeat - Approximately
+Round - MoveTowards
+PiLog - InverseLerp
+
+-Métodos Physic:
+IgnoreColision
+Simulate
+BoxCast
+CheckSphare
+OverlapSphare
