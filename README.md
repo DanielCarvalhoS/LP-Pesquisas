@@ -25,14 +25,23 @@ Física
 
 -Métodos Mathf:
 Max - DeltaAngle
+
 Min - Abs
+
 Repeat - Approximately
+
 Round - MoveTowards
+
 PiLog - InverseLerp
 
 -Métodos Physic:
+
 IgnoreColision
+
 Simulate
+
 BoxCast
+
 CheckSphare
+
 OverlapSphare
