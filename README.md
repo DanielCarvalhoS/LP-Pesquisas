@@ -36,4 +36,8 @@ IgnoreColision -
 Simulate -
 BoxCast -
 CheckSphare -
-OverlapSphare -
+OverlapSphare 
+
+##Tese escrita:
+
+Os tipos de dados do c# no Unity definem a natureza dos dados armazenados nas variáveis. Int é usado para números inteiros. Float é utilizado para números decimais. Com Bool, podemos armazenar valores verdadeiros ou falsos
