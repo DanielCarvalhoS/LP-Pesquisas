@@ -23,25 +23,17 @@ Física
   Logo após, vamos falar sobre os métodos de Matemática (10), assim falando oque cada método escolhido faz, oque ele recebe, para que recebe e oque entrega.
   Repetir essa ação para os métodos de Física. Tudo isso, falando os parametros de entrada e tipo de retorno para ambos.
 
--Métodos Mathf:
+ Métodos Mathf:
 Max - DeltaAngle
-
 Min - Abs
-
 Repeat - Approximately
-
 Round - MoveTowards
-
 PiLog - InverseLerp
 
--Métodos Physic:
+ Métodos Physic:
 
-IgnoreColision
-
-Simulate
-
-BoxCast
-
-CheckSphare
-
-OverlapSphare
+IgnoreColision -
+Simulate -
+BoxCast -
+CheckSphare -
+OverlapSphare -
