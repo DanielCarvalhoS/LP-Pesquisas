@@ -64,4 +64,7 @@ A declaração é: Mathf.Abs(Var inteira ou float). O usuário entrega um valor,
 
 
 Métodos Físicos:
-- 
+- IgnoreColision:
+A declaração é: Physics.IgnoreCollision(Collider collider1, Collider collider2, bool ignore = true); O usuário entrega dois colisores que irão colidir entre si ou terão essa colisão ignorada, definindo ignore como true (verdadeiro).
+- CheckSphere:
+A declaração é: Physics.CheckSphere(transform.position, sphereRadius). Você entrega o centro da espefera (position) e o raio (sphereRadius), e então ele verifica se há colisão com ela e retorna como verdadeiro ou falso.
