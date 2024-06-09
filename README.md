@@ -52,3 +52,16 @@ Para declarar uma variável e seu tipo, colocamos seu tipo e em seguida o nome d
 
 Métodos Matemáticos:
 - Max: 
+Voçê entrega dois ou mais valores, e então ele retorna o maior entre eles. Se for um número negativo, o mais próximo de zero é considerado o maior. Por exemplo: Mathf.Max(1, 2) - Ele retornará o número 2. E no caso de: Mathf.Max(-5.2f, -1.3f) - ele retornará -1,3.
+- Min:
+O usuário entregará dois ou mais valores, e o programa retornará o menor entre eles. Exemplo: Mathf.Min(1, 2) - ele retornará o número 1.
+- Repeat:
+Sua declaração é: Mathf.Repeat(Var, Comprimento). Ele faz um loop no valor da váriavel de forma que não seja maior que o comprimento ou menor que zero. Por exemplo: Mathf.Repeat(1, 5) - ele irá repetir 1.
+- Round:
+A declaração é: Mathf.Round(Variável float). Você entrega um número decimal, e ele retorna o mesmo arrendondado para o inteiro mais próximo. Se o número entregue terminar em ,5 estará entre um número par e outro impar. Nesse caso, ele retornará o número par. Exemplo: Mathf.Round(12.4) - ele retorna 12; Já no caso de: Mathf.Round(12.7) - ele retorna 13.
+- Abs:
+A declaração é: Mathf.Abs(Var inteira ou float). O usuário entrega um valor, e o programa retorna seu valor absoluto, ou seja, a distância que ele está do número zero na reta númerica. Exemplo: Mathf.Abs(-2.6) - ele retornará 2,6.
+
+
+Métodos Físicos:
+- 
