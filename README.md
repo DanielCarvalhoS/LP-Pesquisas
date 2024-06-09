@@ -47,4 +47,3 @@ Com Bool, podemos armazenar valores que serão definidos como verdadeiros ou fal
 String serve para armazenar textos.
 Usamos Vector2 e Vector3 para representar posições ou direções 2D e 3D.
 Para declarar uma variável e seu tipo, colocamos seu tipo e em seguida o nome da variável, fechando com um ponto e vírgula. Por exemplo: float Num1;
-
