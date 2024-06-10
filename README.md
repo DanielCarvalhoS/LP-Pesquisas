@@ -61,7 +61,10 @@ Sua declaração é: Mathf.Repeat(Var, Comprimento). Ele faz um loop no valor da
 A declaração é: Mathf.Round(Variável float). Você entrega um número decimal, e ele retorna o mesmo arrendondado para o inteiro mais próximo. Se o número entregue terminar em ,5 estará entre um número par e outro impar. Nesse caso, ele retornará o número par. Exemplo: Mathf.Round(12.4) - ele retorna 12; Já no caso de: Mathf.Round(12.7) - ele retorna 13.
 - Abs:
 A declaração é: Mathf.Abs(Var inteira ou float). O usuário entrega um valor, e o programa retorna seu valor absoluto, ou seja, a distância que ele está do número zero na reta númerica. Exemplo: Mathf.Abs(-2.6) - ele retornará 2,6.
-
+- DeltaAngle (Calcula a menor diferença dentre dois ângulos):
+A declaração é: Mathf.DeltaAngle(Float atual e float do alvo). O usuário atribui o valor do ângulo atual do objeto e também o ângulo do alvo. O programa vai retorna um valor dentre -179 e 180 em graus. Assim o programa vai calcular a menor diferença dentre ambos os ângulos.
+-  Approximately (Compara dois pontos de valores e retorna verdadeiro aso sejam similar).
+A declaração é: Mathf.Approximately (Float a e Float b). O usuário entrega dois pontos de valores e retorna verdadeiro caso eles sejam similares. Assim usando o ponto Float de imprecisão, fazendo uma comparação de floats usando o operador igual impreciso. Exemplo 
 
 Métodos Físicos:
 - IgnoreColision:
