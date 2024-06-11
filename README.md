@@ -24,11 +24,11 @@ Física
   Repetir essa ação para os métodos de Física. Tudo isso, falando os parametros de entrada e tipo de retorno para ambos.
 
  Métodos Mathf:
-Max - DeltaAngle
-Min - Abs
-Repeat - Approximately
-Round - MoveTowards
-PiLog - InverseLerp
+Max# - DeltaAngle#
+Min# - Abs#
+Repeat# - Approximately
+Round# - MoveTowards
+Log - Exp
 
  Métodos Physic:
 
@@ -63,8 +63,14 @@ A declaração é: Mathf.Round(Variável float). Você entrega um número decima
 A declaração é: Mathf.Abs(Var inteira ou float). O usuário entrega um valor, e o programa retorna seu valor absoluto, ou seja, a distância que ele está do número zero na reta númerica. Exemplo: Mathf.Abs(-2.6) - ele retornará 2,6.
 - DeltaAngle (Calcula a menor diferença dentre dois ângulos):
 A declaração é: Mathf.DeltaAngle(Float atual e float do alvo). O usuário atribui o valor do ângulo atual do objeto e também o ângulo do alvo. O programa vai retorna um valor dentre -179 e 180 em graus. Assim o programa vai calcular a menor diferença dentre ambos os ângulos.
--  Approximately (Compara dois pontos de valores e retorna verdadeiro aso sejam similar).
-A declaração é: Mathf.Approximately (Float a e Float b). O usuário entrega dois pontos de valores e retorna verdadeiro caso eles sejam similares. Assim usando o ponto Float de imprecisão, fazendo uma comparação de floats usando o operador igual impreciso. Exemplo 
+- Approximately (Compara dois pontos de valores e retorna verdadeiro aso sejam similar):
+A declaração é: Mathf.Approximately (Float a e Float b). O usuário entrega dois pontos de valores e retorna verdadeiro caso eles sejam similares. Assim usando o ponto Float de imprecisão, fazendo uma comparação de floats usando o operador igual impreciso. Exemplo (1.0 == 10.0 / 10.0) pode acabar não retornando Verdadeiro todas as vezes. De resumo Approximately() pega dois números floats e quando retorna verdadeiro analisa caso existe um pequeno valor dentre eles.
+- MoveToward (Move o valor até o alvo atual):
+A declaração é: Mathf:MoveToward (Float atual, float alvo, float maxDelta). O usuário entrega três dados, sendo eles o local onde encontra o objeto, o local alvo e por último a força aplicada. Sendo similar ao Matfh.Lerp, oque muda é que a escala de mudança nunca excede o maxDelta, e esse valor é nunca maior que o Alvo. Ponto relatar: valores negativos de maxDelta empurram o valor para longe do alvo.
+- Mathf.Exp (Retorna o valor aumentado pela potência).
+A declaração é: Mathf.Exp (Float potência). Para esse método, o usuário entrega o dado da potência que deseja, então, o programa vai retornar o valor "e" aumentado por tal potência.
+- Mathf.Log (Retorna o valor logaritímico de um específico número por uma base específica).
+A declaração é: Mathf.Log (Float, float p). O usuário entrega o valor do número "f" e entrega o valor da base "p", assim, o programa retorna o logaritímico do número e da base específico.
 
 Métodos Físicos:
 - IgnoreColision:
